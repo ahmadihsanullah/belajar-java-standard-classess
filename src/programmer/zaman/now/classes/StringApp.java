@@ -6,12 +6,12 @@ public class StringApp {
         String nameLowercase = name.toLowerCase();
         String nameUppercase = name.toUpperCase();
 
-        System.out.println(name);
-        System.out.println(nameLowercase);
-        System.out.println(nameUppercase);
-        System.out.println(name.length());
-        System.out.println(name.startsWith("Ahmad"));
-        System.out.println(name.endsWith("Rabbani"));
+//        System.out.println(name);
+//        System.out.println(nameLowercase);
+//        System.out.println(nameUppercase);
+//        System.out.println(name.length());
+//        System.out.println(name.startsWith("Ahmad"));
+//        System.out.println(name.endsWith("Rabbani"));
 
         String[] names = name.split(" ");
         for(var value : names){
@@ -22,8 +22,8 @@ public class StringApp {
         System.out.println(" ".isEmpty());
         System.out.println("".isEmpty());
 
-        //mengambil karakter ke -1
-        System.out.println(name.charAt(1));
+//        mengambil karakter ke -1
+        System.out.println(name.charAt(0));
 
         char[] chars = name.toCharArray();
 
